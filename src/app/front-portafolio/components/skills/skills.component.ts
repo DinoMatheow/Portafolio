@@ -5,5 +5,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [],
   templateUrl: './skills.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrl:'./skills.component.css'
 })
-export class SkillsComponent { }
+export class SkillsComponent {
+  activeTab: 'hard' | 'soft' = 'hard';
+ }
