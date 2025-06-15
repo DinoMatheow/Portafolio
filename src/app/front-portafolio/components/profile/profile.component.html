@@ -1,5 +1,9 @@
   <!-- Contenido interior -->
   <div class="p-6 bg-base-200">
+    <h1 class="text-3xl font-[Press_Start_2P] text-pink text-center mb-6">
+      Hi, my name is Matheow
+    </h1>
+
     <div class="hero-content flex-col lg:flex-row gap-10">
         <div class="flex flex-col items-center text-center lg:items-start lg:text-left">
 
@@ -108,6 +112,28 @@
           </div>
 
           <!-- card of portfolio -->
+          <button
+          type="button"
+          aria-label="Download CV"
+          class="cursor-pointer group relative flex items-center gap-2 px-6 py-3
+                 bg-neutral-900 text-pink-200 rounded-3xl
+                 hover:bg-neutral-800 transition-all duration-300
+                 font-semibold shadow-md">
+
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="24px" width="24px">
+            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#f9a8d4" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"></path>
+          </svg>
+
+          CV Download
+
+          <div class="absolute opacity-0 bottom-[calc(100%+0.5rem)] rounded-md py-1.5 px-2 text-sm
+                      bg-pink-900 text-white bg-opacity-90
+                      left-1/2 -translate-x-1/2 group-hover:opacity-100
+                      transition-opacity duration-200 shadow-lg">
+            Descargar
+          </div>
+        </button>
+
 
 
         </div>
@@ -117,9 +143,24 @@
 
 
       </div>
-      <div>
-
-      </div>
 
     </div>
+
+<!-- Contenedor general con ancho completo y alineación a la derecha -->
+<div class="w-full flex justify-end">
+  <!-- Sección de idiomas alineada a la derecha -->
+  <div class="flex flex-col items-center justify-center p-4 bg-base-300 rounded-xl shadow-lg text-center min-w-[180px]">
+    <h2 class="text-xl font-[Press_Start_2P] text-pink mb-4">Languages</h2>
+    <div class="flex flex-col gap-2">
+      <span class="text-sm text-white bg-pink-600 px-3 py-1 rounded-md font-mono">
+        🇪🇸 Español - Native
+      </span>
+      <span class="text-sm text-white bg-blue-600 px-3 py-1 rounded-md font-mono">
+        🇬🇧 English - A2/B1
+      </span>
+    </div>
+  </div>
+</div>
+
+
   </div>
