@@ -1,20 +1,17 @@
 <nav class="navbar bg-base-100 shadow-md">
   <div class="container mx-auto flex justify-between">
-
+    <!-- Links -->
+    <div class="hidden md:flex gap-4">
+      <a class="btn btn-ghost" routerLink="/"> {{ 'inicio' | translate  }} </a>
+      <a class="btn btn-ghost" routerLink="/projects"> {{ 'portfolio'| translate  }} </a>
+      <a class="btn btn-ghost" routerLink="/contact"> {{ 'contact'| translate   }} </a>
+    </div>
     <!-- Logo o nombre -->
     <div class="flex items-center">
       <a class="btn btn-ghost normal-case text-xl" routerLink="/">☕ Matheow
       </a>
     </div>
 
-    <!-- Links -->
-    <div class="hidden md:flex gap-4">
-      <a class="btn btn-ghost" routerLink="/"> {{ 'inicio' | translate  }} </a>
-      <a class="btn btn-ghost" routerLink="/projects"> {{ 'proyects'| translate  }} </a>
-      <a class="btn btn-ghost" routerLink="/skills"> {{ 'skills' | translate  }} </a>
-      <a class="btn btn-ghost" routerLink="/about"> {{ 'about' | translate  }} </a>
-      <a class="btn btn-ghost" routerLink="/contact"> {{ 'contact'| translate   }} </a>
-    </div>
 
     <!-- Responsive (hamburguesa) -->
     <div class="dropdown dropdown-end md:hidden">
