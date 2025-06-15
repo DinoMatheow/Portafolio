@@ -1,11 +1,26 @@
 <nav class="navbar bg-base-100 shadow-md">
   <div class="container mx-auto flex justify-between">
     <!-- Links -->
-    <div class="hidden md:flex gap-4">
-      <a class="btn btn-ghost" routerLink="/"> {{ 'inicio' | translate  }} </a>
-      <a class="btn btn-ghost" routerLink="/projects"> {{ 'portfolio'| translate  }} </a>
-      <a class="btn btn-ghost" routerLink="/contact"> {{ 'contact'| translate   }} </a>
+
+    <div class="flex gap-2 flex-wrap">
+      <a class="btn btn-soft gap-2" routerLink="/">
+        <i class="lucide lucide-home"></i>
+        {{ 'inicio' | translate }}
+      </a>
+      <a class="btn btn-soft gap-2" routerLink="/projects">
+        <i class="lucide lucide-folder-open"></i>
+        {{ 'portfolio' | translate }}
+      </a>
+      <a class="btn btn-soft gap-2" routerLink="/contact">
+        <i class="lucide lucide-mail"></i>
+        {{ 'contact' | translate }}
+      </a>
     </div>
+
+
+
+
+
     <!-- Logo o nombre -->
     <div class="flex items-center">
       <a class="btn btn-ghost normal-case text-xl" routerLink="/">☕ Matheow
@@ -23,11 +38,9 @@
         </svg>
       </label>
       <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a routerLink="/">Inicio</a></li>
-        <li><a routerLink="/projects">Proyectos</a></li>
-        <li><a routerLink="/skills">Skills</a></li>
-        <li><a routerLink="/about">Sobre mí</a></li>
-        <li><a routerLink="/contact">Contacto</a></li>
+        <li><a routerLink="/"> {{ 'inicio'| translate  }} </a></li>
+        <li><a routerLink="/projects"> {{ 'portfolio'|translate   }} </a></li>
+        <li><a routerLink="/skills"> {{'contact'|translate  }} </a></li>
       </ul>
     </div>
     <!-- change language -->
