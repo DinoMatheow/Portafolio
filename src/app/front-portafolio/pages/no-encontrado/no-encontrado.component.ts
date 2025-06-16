@@ -1,9 +1,9 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-soft-skills',
+  selector: 'app-no-encontrado',
   imports: [],
-  templateUrl: './soft-skills.component.html',
+  templateUrl: './no-encontrado.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SoftSkillsComponent { }
+export class NoEncontradoComponent { }

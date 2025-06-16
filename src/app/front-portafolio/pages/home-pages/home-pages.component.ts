@@ -2,7 +2,8 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { ProfileComponent } from '../../components/profile/profile.component';
 import { ContactComponent } from '../../components/contact/contact.component';
 import { ProyectComponent } from '../../components/proyect/proyect.component';
-import { SkillsComponent } from '../../../tech-profile/components/skills/skills.component';
+import { TechProfileComponent } from '../../components/techProfile/techProfile.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-home-pages',
@@ -11,7 +12,10 @@ import { SkillsComponent } from '../../../tech-profile/components/skills/skills.
   imports: [
     ProfileComponent,
     ContactComponent,
-    ProyectComponent],
+    ProyectComponent,
+    TechProfileComponent,
+    RouterOutlet
+  ],
   standalone: true,
   styleUrl: './home-pages.component.css'
 })

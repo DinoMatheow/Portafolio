@@ -1,9 +1,9 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-technology',
+  selector: 'app-soft',
   imports: [],
-  templateUrl: './technology.component.html',
+  templateUrl: './soft.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TechnologyComponent { }
+export class SoftComponent { }
