@@ -1,7 +1,12 @@
 <nav class="navbar bg-base-100 shadow-md">
   <div class="container mx-auto flex justify-between">
-    <!-- Links -->
+    <!-- Logo o nombre -->
+    <div class="flex items-center">
+      <a class="btn btn-ghost normal-case text-xl" routerLink="/"><☕ MatheowDev />
+      </a>
+    </div>
 
+    <!-- Links -->
     <div class="flex gap-2 flex-wrap">
       <a class="btn btn-soft gap-2" routerLink="/">
         <i class="lucide lucide-home"></i>
@@ -16,17 +21,6 @@
         {{ 'contact' | translate }}
       </a>
     </div>
-
-
-
-
-
-    <!-- Logo o nombre -->
-    <div class="flex items-center">
-      <a class="btn btn-ghost normal-case text-xl" routerLink="/">☕ MatheowDev
-      </a>
-    </div>
-
 
     <!-- Responsive (hamburguesa) -->
     <div class="dropdown dropdown-end md:hidden">

@@ -1,9 +1,8 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TranslatePipe } from '@ngx-translate/core';
 import { ProfileComponent } from '../../components/profile/profile.component';
 import { ContactComponent } from '../../components/contact/contact.component';
 import { ProyectComponent } from '../../components/proyect/proyect.component';
-import { SkillsComponent } from '../../components/skills/skills.component';
+import { SkillsComponent } from '../../../tech-profile/components/skills/skills.component';
 
 @Component({
   selector: 'app-home-pages',
@@ -11,7 +10,6 @@ import { SkillsComponent } from '../../components/skills/skills.component';
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     ProfileComponent,
-    SkillsComponent,
     ContactComponent,
     ProyectComponent],
   standalone: true,
