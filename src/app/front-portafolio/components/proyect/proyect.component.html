@@ -1,6 +1,35 @@
-<div class="p-4 bg-[#3c1e1e] bg-opacity-90">
 
-  <div class="text-xl font-bold text-amber-100 text-center">
-    <app-title [title]="myTitle()"></app-title>
+<div class="p-4 bg-gradient-to-r from-[#1a2421] via-[#1f332c] to-[#2e4239] rounded-box shadow-md">
+  <div class="flex items-center justify-between w-full px-4 mb-4">
+    <!-- Imagen izquierda -->
+    <img src="/assets/images/coffee-cup.png" alt="coffee-cup" class="w-24 h-24">
+
+    <!-- Título centrado -->
+    <div class="text-xl font-bold text-primary text-center">
+      <app-title [title]="myTitle()"></app-title>
+    </div>
+
+    <!-- Imagen derecha -->
+    <img src="/assets/images/barista.png" alt="barista" class="w-24 h-24">
   </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 font-[Press_Start_2P]">
+    <div class="bg-[#2e1a1a] border-4 border-amber-400 p-4 rounded-xl shadow-lg text-amber-100">
+      <img src="/assets/images/project-coffee.png" alt="Proyecto" class="w-full h-40 object-cover mb-4 border-2 border-amber-300 pixelated" />
+      <h3 class="text-lg mb-2">☕ Coffee Map</h3>
+      <p class="text-xs mb-3">Mapa interactivo con cafeterías, usando geolocalización y filtros.</p>
+
+      <div class="flex flex-wrap gap-1 mb-3 text-xs">
+        <span class="bg-[#5c3c00] text-white px-2 py-1 rounded">Angular</span>
+        <span class="bg-[#5c3c00] text-white px-2 py-1 rounded">Mapbox</span>
+        <span class="bg-[#5c3c00] text-white px-2 py-1 rounded">RxJS</span>
+      </div>
+
+      <div class="flex justify-between text-xs">
+        <a href="#" class="bg-[#3e2c00] hover:bg-[#5e3c00] text-white px-3 py-1 rounded">Demo</a>
+        <a href="#" class="bg-[#3e2c00] hover:bg-[#5e3c00] text-white px-3 py-1 rounded">GitHub</a>
+      </div>
+    </div>
+  </div>
+
 </div>
