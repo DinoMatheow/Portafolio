@@ -13,7 +13,6 @@ import { RouterOutlet } from '@angular/router';
     ProfileComponent,
     ContactComponent,
     ProyectComponent,
-    TechProfileComponent,
     RouterOutlet
   ],
   standalone: true,

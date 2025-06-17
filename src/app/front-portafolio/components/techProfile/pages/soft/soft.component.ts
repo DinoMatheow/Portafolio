@@ -5,5 +5,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [],
   templateUrl: './soft.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrl:'soft.component.css',
 })
 export class SoftComponent { }

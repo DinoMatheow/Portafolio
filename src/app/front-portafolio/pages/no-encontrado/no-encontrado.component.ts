@@ -1,9 +1,17 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
+import { TitleComponent } from '../../../shared/components/title/title.component';
 
 @Component({
   selector: 'app-no-encontrado',
-  imports: [],
+  imports: [TitleComponent],
   templateUrl: './no-encontrado.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
+  styleUrl:'./no-encontrado.component.css'
 })
-export class NoEncontradoComponent { }
+export class NoEncontradoComponent {
+
+  myTitle = signal('Skills & Tools');
+
+
+
+}
