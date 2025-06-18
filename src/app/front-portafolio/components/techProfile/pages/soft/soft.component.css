@@ -1,78 +1,91 @@
-/* From Uiverse.io by arshshaikh06 */
-.container {
-  height: 200px;
-  width: 350px;
-  border-radius: 1em;
-  overflow: hidden;
-  box-shadow: 0 10px 20px #dbdbdb;
-  font-family: sans-serif;
+/* From Uiverse.io by kushalyadavweb */
+.card {
+  width: 190px;
+  height: 254px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  overflow: visible;
 }
 
-.palette {
-  display: flex;
-  height: 86%;
+.card .item {
+  border-radius: 10px;
   width: 100%;
-}
-
-.color {
   height: 100%;
-  flex: 1;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+}
+
+.item:hover {
+  transform: scale(1.5);
+  transition: all 350ms ease-in-out;
+}
+
+.item svg {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 7px;
+}
+
+.item--1 {
+  background: #c7c7ff;
+}
+
+.item--2 {
+  background: #ffd8be;
+}
+
+.item--3 {
+  background: #a9ecbf;
+}
+
+.item--4 {
+  background: #f3bbe1;
+}
+
+.item--5 {
+  background: #ffeb3b; /* Amarillo suave */
+}
+
+.item--6 {
+  background: #80deea; /* Celeste claro */
+}
+
+.item--7 {
+  background: #ffab91; /* Coral claro */
+}
+
+.item--8 {
+  background: #d1c4e9; /* Lavanda suave */
+}
+
+.quantity {
+  font-size: 25px;
   font-weight: 600;
-  letter-spacing: 1px;
-  transition: flex 0.1s linear;
 }
 
-.color span {
-  opacity: 0;
-  transition: opacity 0.1s linear;
+.text {
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 600;
 }
 
-.color:nth-child(1) {
-  background: #264653;
+.text--1 {
+  color: rgba(149, 149, 255, 1);
 }
 
-.color:nth-child(2) {
-  background: #2a9d8f;
+.text--2 {
+  color: rgba(252, 161, 71, 1);
 }
 
-.color:nth-child(3) {
-  background: #e9c46a;
+.text--3 {
+  color: rgba(66, 193, 110, 1);
 }
 
-.color:nth-child(4) {
-  background: #f4a261;
-}
-
-.color:nth-child(5) {
-  background: #e76f51;
-}
-
-.color:hover {
-  flex: 2;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
-.color:hover span {
-  opacity: 1;
-}
-
-#stats {
-  height: 14%;
-  width: 100%;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 1.5em;
-  box-sizing: border-box;
-  color: #bebebe;
-}
-
-#stats svg {
-  fill: #bebebe;
-  transform: scale(1.2);
+.text--4 {
+  color: rgba(220, 91, 183, 1);
 }
