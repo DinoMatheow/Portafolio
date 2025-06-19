@@ -6,11 +6,27 @@ export const TECH_DATA: TechCategory[] = [
     items: [
       {
         name: 'JavaScript',
-        svg: `<svg viewBox="0 0 24 24" fill="currentColor">...</svg>`
+        svg: 'assets/svg/languageProgram/javascript.svg'
       },
       {
         name: 'TypeScript',
-        svg: `<svg viewBox="0 0 24 24" fill="currentColor">...</svg>`
+        svg: 'assets/svg/languageProgram/typescript.svg'
+      },
+      {
+        name: 'CShart',
+        svg: 'assets/svg/languageProgram/cShart.svg'
+      },
+      {
+        name: 'PostgreSQL',
+        svg: 'assets/svg/languageProgram/postgreSQL.svg'
+      },
+      {
+        name: 'CSS',
+        svg: 'assets/svg/languageProgram/css.svg'
+      },
+      {
+        name: 'HTML',
+        svg: 'assets/svg/languageProgram/html.svg'
       }
     ]
   },
@@ -19,11 +35,23 @@ export const TECH_DATA: TechCategory[] = [
     items: [
       {
         name: 'Angular',
-        svg: `<svg viewBox="0 0 24 24" fill="currentColor">...</svg>`
+        svg: 'assets/svg/framework/angular.svg'
+      },
+      {
+        name: 'Boostrap',
+        svg: 'assets/svg/framework/boostrap.svg'
       },
       {
         name: 'React',
-        svg: `<svg viewBox="0 0 24 24" fill="currentColor">...</svg>`
+        svg: 'assets/svg/framework/react.svg'
+      },
+      {
+        name: 'RxJs',
+        svg: 'assets/svg/framework/rxJs.svg'
+      },
+      {
+        name: 'Tailwind',
+        svg: 'assets/svg/framework/tailwind.svg'
       }
     ]
   },
@@ -31,12 +59,20 @@ export const TECH_DATA: TechCategory[] = [
     title: 'Others',
     items: [
       {
-        name: 'Angular',
-        svg: `<svg viewBox="0 0 24 24" fill="currentColor">...</svg>`
+        name: 'Canva',
+        svg: 'assets/svg/toolsOther/canva.svg'
       },
       {
-        name: 'React',
-        svg: `<svg viewBox="0 0 24 24" fill="currentColor">...</svg>`
+        name: 'Excalidraw',
+        svg: 'assets/svg/toolsOther/excalidraw.svg'
+      },
+      {
+        name: 'Figma',
+        svg: 'assets/svg/toolsOther/figma.svg'
+      },
+      {
+        name: 'GitHub',
+        svg: 'assets/svg/toolsOther/github.svg'
       }
     ]
   },
