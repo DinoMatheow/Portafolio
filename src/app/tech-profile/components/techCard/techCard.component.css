@@ -1,4 +1,4 @@
-/* .tooltip {
+.tooltip {
   position: relative;
   display: inline-block;
 }
@@ -23,4 +23,4 @@
 .tooltip:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
-} */
+}

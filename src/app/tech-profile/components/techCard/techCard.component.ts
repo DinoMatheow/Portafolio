@@ -30,4 +30,11 @@ export class TechCardComponent {
       'transform': 'translate(-50%, -50%)',
     };
   }
+
+  selectIndex = signal(0);
+
+changeTechData(index: number) {
+  this.selectIndex.set(index);
+}
+
 }
