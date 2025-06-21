@@ -8,7 +8,7 @@ export const projects: Project[] = [
     description: "Proyecto que permite buscar y mostrar GIFS consumiendo la Api Giphy",
     githubUrl: "https://github.com/DinoMatheow/Lista-de-gifs",
     previewUrl: "https://dinomatheow.github.io/Lista-de-gifs/",
-    imageUrl: "/assets/images/project-coffee.png",
+    imageUrl: "assets/images/proyects/gifApp.png",
     features: [
       "Buscador Gif",
       "Lista de resultados",
