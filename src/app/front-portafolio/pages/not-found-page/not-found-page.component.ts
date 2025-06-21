@@ -1,9 +1,9 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 @Component({
-  selector: 'app-contact',
+  selector: 'app-not-found-page',
   imports: [],
-  templateUrl: './contact.component.html',
+  templateUrl: './not-found-page.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ContactComponent { }
+export class NotFoundPageComponent { }

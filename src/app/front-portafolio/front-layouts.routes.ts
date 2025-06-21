@@ -1,7 +1,8 @@
 import { Routes } from '@angular/router';
 import { FrontLayoutComponent } from './layout/front-layout/front-layout.component';
 import { HomePagesComponent } from './pages/home-pages/home-pages.component';
-import { NoEncontradoComponent } from './pages/no-encontrado/no-encontrado.component';
+import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 export const FrontLayoutroutes: Routes = [
   {
     path: '',
@@ -12,8 +13,12 @@ export const FrontLayoutroutes: Routes = [
         component: HomePagesComponent,
       },
       {
-        path: 'no',
-        component: NoEncontradoComponent,
+        path:'contact',
+        component: ContactPageComponent,
+      },
+      {
+        path: 'noFound',
+        component: NotFoundPageComponent,
       }
     ]
   },
