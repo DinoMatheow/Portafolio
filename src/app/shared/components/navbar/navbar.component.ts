@@ -12,15 +12,20 @@ export class NavbarComponent {
   translate = inject(TranslateService);
 
   constructor() {
-    this.translate.addLangs(['de', 'en']);
+    this.translate.addLangs(['en', 'es']);
     this.translate.setDefaultLang('en');
     this.translate.use('en');
+  }
 
+  changeLang(lang: string) {
+    this.translate.use(lang);
+  }
 
-}
+  getCurrentLang(): string {
+    return this.translate.currentLang || 'en';
+  }
 
-changeLang(lang: string) {
-  this.translate.use(lang);
-}
-
+  isLangActive(lang: string): boolean {
+    return this.getCurrentLang() === lang;
+  }
 }

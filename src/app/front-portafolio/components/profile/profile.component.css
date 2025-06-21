@@ -1,7 +1,7 @@
 .card {
   width: 280px;
   height: 360px;
-  background: #3e2c2c; /* café oscuro con matiz vino */
+  background: #1d1c1c; /* café oscuro con matiz vino */
   border-radius: 16px;
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -12,7 +12,7 @@
 }
 
 .card:hover {
-  background-color: #513636; /* un poco más claro al hacer hover */
+  background-color: #0f0f0f; /* un poco más claro al hacer hover */
 }
 
 .profileImage {

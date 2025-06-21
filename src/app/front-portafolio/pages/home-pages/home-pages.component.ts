@@ -12,8 +12,8 @@ import { ProfileSkillsComponent } from '../../../tech-profile/pages/profileSkill
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     ProfileComponent,
-    ProfileSkillsComponent,
     ProyectComponent,
+    TechProfileComponent,
     // RouterOutlet
   ],
   standalone: true,

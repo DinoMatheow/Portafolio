@@ -1,4 +1,4 @@
-import { TechCategory } from "../tech-profile/interfaces/tech.interface";
+import { TechCategory } from "../front-portafolio/interfaces/tech.interface";
 
 export const TECH_DATA: TechCategory[] = [
   {
@@ -56,7 +56,7 @@ export const TECH_DATA: TechCategory[] = [
     ]
   },
   {
-    title: 'Others',
+    title: 'Others Skills',
     items: [
       {
         name: 'Canva',
