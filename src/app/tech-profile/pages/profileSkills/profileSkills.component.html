@@ -1,63 +1,52 @@
-<div class="p-4 bg-gradient-to-r from-[#0d0d0d] via-[#1a1a1a] to-[#2e2e2e] bg-opacity-90 rounded-none shadow-xl">
-  <!-- From Uiverse.io by 00Kubi -->
-  <div
-  class="flex flex-col items-center p-6 bg-gradient-to-br from-slate-50 to-gray-100 rounded-xl shadow-xl"
-  >
-  <div
-  class="text-center mb-6 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent text-3xl font-black tracking-tight"
-  >
-  <!-- titulo -->
-  <div class="flex items-center justify-center w-full px-4 mb-4">
-    <app-title [title]="myTitle()"></app-title>
 
+<div class="w-full relative bg-base-300  px-4 flex justify-center">
+  <div class="p-6 bg-base-200 max-w-6xl w-full min-h-[700px]  z-10">
 
-  </div>
-</div>
+    <!-- titulo -->
+    <div>
+    <div class="flex items-center w-full px-4 mb-4">
 
-
-<div class="flex flex-col bg-gray-200 p-6 rounded-lg min-h-[300px] w-full max-w-5xl mx-auto">
-
-  <!-- content -->
-  <div class="tab-container self-start">
-    <button
-      (click)="activeTab.set('tech')"
-      [class.selected]="activeTab() === 'tech'"
-      class="tab_label"
-    >
-      Technology
-    </button>
-
-    <button
-      (click)="activeTab.set('soft')"
-      [class.selected]="activeTab() === 'soft'"
-      class="tab_label"
-    >
-      Soft Skills
-    </button>
-
-    <div
-      class="indicator"
-      [ngStyle]="{ left: activeTab() === 'tech' ? '2px' : 'calc(130px + 2px)' }"
-    ></div>
-  </div>
-
-  <!-- card-content -->
-
-  @if (activeTab() === 'tech') {
-    <app-tech-card></app-tech-card>
-  } @else if (activeTab() === 'soft') {
-    <app-soft-card></app-soft-card>
-  }
+      <h1 class="text-5xl font-bold">Tech & Soft Skills</h1>
+    </div>
+    </div>
 
 
 
+    <ul class="menu bg-base-300 lg:menu-horizontal rounded-box ">
+      <li>
+        <button
+        (click)="activeTab.set('tech')"
+        [class.selected]="activeTab() === 'tech'"
 
+        >
+
+          Tech Skills
+          <span class="badge badge-xs">99+</span>
+        </button>
+      </li>
+      <li>
+        <button
+        (click)="activeTab.set('soft')"
+        [class.selected]="activeTab() === 'soft'"
+
+        >
+
+          Soft Skills
+          <span class="badge badge-xs badge-warning">NEW</span>
+        </button>
+      </li>
+    </ul>
+
+    <!-- botones -->
+    @if (activeTab() === 'tech') {
+      <app-tech-card></app-tech-card>
+    } @else if (activeTab() === 'soft') {
+      <app-soft-card></app-soft-card>
+    }
 
 </div>
 
-
-
-
 </div>
+
 
 

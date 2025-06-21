@@ -1,185 +1,197 @@
   <!-- Contenido interior -->
-  <div class="p-6 bg-base-200">
-    <h1 class="text-3xl font-[Press_Start_2P] text-pink text-center mb-6">
-      Hi, my name is Matheow
-    </h1>
-
-    <div class="hero-content flex-col lg:flex-row gap-10">
-        <div class="flex flex-col items-center text-center lg:items-start lg:text-left">
-
-        <!-- From Uiverse.io by vinodjangid07 -->
-            <div class="card">
-              <div class="profileImage">
-                <svg viewBox="0 0 128 128"><circle r="60" fill="transparent" cy="64" cx="64"></circle><circle r="48" fill="transparent" cy="64" cx="64"></circle><path fill="#191919" d="m64 14a32 32 0 0 1 32 32v41a6 6 0 0 1 -6 6h-52a6 6 0 0 1 -6-6v-41a32 32 0 0 1 32-32z"></path><path opacity="1" fill="#191919" d="m62.73 22h2.54a23.73 23.73 0 0 1 23.73 23.73v42.82a4.45 4.45 0 0 1 -4.45 4.45h-41.1a4.45 4.45 0 0 1 -4.45-4.45v-42.82a23.73 23.73 0 0 1 23.73-23.73z"></path><circle r="7" fill="#fbc0aa" cy="65" cx="89"></circle><path fill="#4bc190" d="m64 124a59.67 59.67 0 0 0 34.69-11.06l-3.32-9.3a10 10 0 0 0 -9.37-6.64h-43.95a10 10 0 0 0 -9.42 6.64l-3.32 9.3a59.67 59.67 0 0 0 34.69 11.06z"></path><path opacity=".3" fill="#356cb6" d="m45 110 5.55 2.92-2.55 8.92a60.14 60.14 0 0 0 9 1.74v-27.08l-12.38 10.25a2 2 0 0 0 .38 3.25z"></path><path opacity=".3" fill="#356cb6" d="m71 96.5v27.09a60.14 60.14 0 0 0 9-1.74l-2.54-8.93 5.54-2.92a2 2 0 0 0 .41-3.25z"></path><path fill="#fff" d="m57 123.68a58.54 58.54 0 0 0 14 0v-25.68h-14z"></path><path stroke-width="14" stroke-linejoin="round" stroke-linecap="round" stroke="#fbc0aa" fill="none" d="m64 88.75v9.75"></path><circle r="7" fill="#fbc0aa" cy="65" cx="39"></circle><path fill="#ffd8ca" d="m64 91a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z"></path><path fill="#191919" d="m91.49 51.12v-4.72c0-14.95-11.71-27.61-26.66-28a27.51 27.51 0 0 0 -28.32 27.42v5.33a2 2 0 0 0 2 2h6.81a8 8 0 0 0 6.5-3.33l4.94-6.88a18.45 18.45 0 0 1 1.37 1.63 22.84 22.84 0 0 0 17.87 8.58h13.45a2 2 0 0 0 2.04-2.03z"></path><path style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1" d="m62.76 36.94c4.24 8.74 10.71 10.21 16.09 10.21h5"></path><path style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1" d="m71 35c2.52 5.22 6.39 6.09 9.6 6.09h3"></path><circle r="3" fill="#515570" cy="62.28" cx="76"></circle><circle r="3" fill="#515570" cy="62.28" cx="52"></circle><ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67" cx="50.42"></ellipse><ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67" cx="77.58"></ellipse><g stroke-linejoin="round" stroke-linecap="round" fill="none"><path stroke-width="4" stroke="#fbc0aa" d="m64 67v4"></path><path stroke-width="2" stroke="#515570" opacity=".2" d="m55 56h-9.25"></path><path stroke-width="2" stroke="#515570" opacity=".2" d="m82 56h-9.25"></path></g><path opacity=".4" fill="#f85565" d="m64 84c5 0 7-3 7-3h-14s2 3 7 3z"></path><path fill="#f85565" d="m65.07 78.93-.55.55a.73.73 0 0 1 -1 0l-.55-.55c-1.14-1.14-2.93-.93-4.27.47l-1.7 1.6h14l-1.66-1.6c-1.34-1.4-3.13-1.61-4.27-.47z"></path></svg>
-
-              </div>
-              <div class="textContainer">
-                <p class="name">Matheow</p>
-                <p class="profile">Software Developer</p>
-              </div>
-            </div>
-          </div>
-
-      <!--Terminal + descripción + botones -->
-      <div class="flex flex-col justify-center max-w-2xl">
-
-        <!--Terminal animada -->
-        <div class="terminal-loader w-full mb-6">
-          <div class="terminal-header">
-            <div class="terminal-title">Status</div>
-            <div class="terminal-controls">
-              <div class="control close"></div>
-              <div class="control minimize"></div>
-              <div class="control maximize"></div>
-            </div>
-          </div>
-          <div class="text">Hello World...</div>
-          <p class="terminal-description">
-            {{ 'description' | translate }}
-          </p>
-        </div>
-        <!--Botones -->
-        <div class="flex flex-col md:flex-row gap-4">
-          <svg width="0" height="0" style="position: absolute;">
-            <defs>
-              <clipPath id="squircleClip" clipPathUnits="objectBoundingBox">
-                <path d="M 0,0.5 C 0,0 0,0 0.5,0 S 1,0 1,0.5 1,1 0.5,1 0,1 0,0.5"></path>
-              </clipPath>
-            </defs>
-          </svg>
-
-          <!-- EnlacesButton -->
-          <div class="relative">
-            <div
-            class="absolute inset-0 bg-black/20 backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl"
-            ></div>
-
-            <div class="relative flex items-end gap-x-2 p-2">
-              <!-- gitHubButton -->
-              <a href="https://github.com/DinoMatheow"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="relative">
-
-                <div class="relative">
-                  <div
-                    style="clip-path: url(#squircleClip)"
-                    class="w-14 h-14 bg-gradient-to-br from-gray-700 to-gray-900 rounded-xl flex items-center justify-center shadow-lg border border-gray-600/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      class="h-8 w-8 text-white"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-                      ></path>
-                    </svg>
-                  </div>
-                </div>
-            </a>
-
-              <!-- LinkeDinButton -->
-               <a href="https://www.linkedin.com/in/axel-chavez-malpartida-41870827a/"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="relative">
-
-               <div class="relative">
-                 <div
-                   style="clip-path: url(#squircleClip)"
-                   class="w-14 h-14 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center shadow-lg border border-blue-500/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
-                 >
-                   <svg
-                     viewBox="0 0 24 24"
-                     fill="currentColor"
-                     class="h-8 w-8 text-white"
-                     xmlns="http://www.w3.org/2000/svg"
-                   >
-                     <path
-                       d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-                     ></path>
-                   </svg>
-                 </div>
-               </div>
-              </a>
-              <!-- DiscordButton -->
-              <a
-                href="mailto:AxelMatheow1710@outlook.com"
-                class="relative"
-              >
-              <div class="relative">
-                <div
-
-                class="w-14 h-14 bg-gradient-to-br from-white to-white rounded-xl flex items-center justify-center shadow-lg border border-white-500/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
-                >
-                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#EA4335"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
 
 
+  <div class="w-full relative bg-base-300  px-4 flex justify-center">
+    <!-- Líneas laterales decorativas -->
+
+
+    <!-- Contenido centrado -->
+    <div class="p-6 bg-base-200 max-w-6xl w-full z-10">
+      <!-- Aquí va TODO tu contenido actual, lo que me pasaste -->
+      <div class="p-6 bg-base-200">
+        <h1 class="text-3xl font-[Press_Start_2P] text-pink text-center mb-6">
+          Hi, my name is Matheow
+        </h1>
+
+        <div class="hero-content flex-col lg:flex-row gap-10">
+            <div class="flex flex-col items-center text-center lg:items-start lg:text-left">
+
+            <!-- From Uiverse.io by vinodjangid07 -->
+                <div class="card">
+                  <div class="profileImage">
+                    <svg viewBox="0 0 128 128"><circle r="60" fill="transparent" cy="64" cx="64"></circle><circle r="48" fill="transparent" cy="64" cx="64"></circle><path fill="#191919" d="m64 14a32 32 0 0 1 32 32v41a6 6 0 0 1 -6 6h-52a6 6 0 0 1 -6-6v-41a32 32 0 0 1 32-32z"></path><path opacity="1" fill="#191919" d="m62.73 22h2.54a23.73 23.73 0 0 1 23.73 23.73v42.82a4.45 4.45 0 0 1 -4.45 4.45h-41.1a4.45 4.45 0 0 1 -4.45-4.45v-42.82a23.73 23.73 0 0 1 23.73-23.73z"></path><circle r="7" fill="#fbc0aa" cy="65" cx="89"></circle><path fill="#4bc190" d="m64 124a59.67 59.67 0 0 0 34.69-11.06l-3.32-9.3a10 10 0 0 0 -9.37-6.64h-43.95a10 10 0 0 0 -9.42 6.64l-3.32 9.3a59.67 59.67 0 0 0 34.69 11.06z"></path><path opacity=".3" fill="#356cb6" d="m45 110 5.55 2.92-2.55 8.92a60.14 60.14 0 0 0 9 1.74v-27.08l-12.38 10.25a2 2 0 0 0 .38 3.25z"></path><path opacity=".3" fill="#356cb6" d="m71 96.5v27.09a60.14 60.14 0 0 0 9-1.74l-2.54-8.93 5.54-2.92a2 2 0 0 0 .41-3.25z"></path><path fill="#fff" d="m57 123.68a58.54 58.54 0 0 0 14 0v-25.68h-14z"></path><path stroke-width="14" stroke-linejoin="round" stroke-linecap="round" stroke="#fbc0aa" fill="none" d="m64 88.75v9.75"></path><circle r="7" fill="#fbc0aa" cy="65" cx="39"></circle><path fill="#ffd8ca" d="m64 91a25 25 0 0 1 -25-25v-16.48a25 25 0 1 1 50 0v16.48a25 25 0 0 1 -25 25z"></path><path fill="#191919" d="m91.49 51.12v-4.72c0-14.95-11.71-27.61-26.66-28a27.51 27.51 0 0 0 -28.32 27.42v5.33a2 2 0 0 0 2 2h6.81a8 8 0 0 0 6.5-3.33l4.94-6.88a18.45 18.45 0 0 1 1.37 1.63 22.84 22.84 0 0 0 17.87 8.58h13.45a2 2 0 0 0 2.04-2.03z"></path><path style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1" d="m62.76 36.94c4.24 8.74 10.71 10.21 16.09 10.21h5"></path><path style="fill:none;stroke-linecap:round;stroke:#fff;stroke-miterlimit:10;stroke-width:2;opacity:.1" d="m71 35c2.52 5.22 6.39 6.09 9.6 6.09h3"></path><circle r="3" fill="#515570" cy="62.28" cx="76"></circle><circle r="3" fill="#515570" cy="62.28" cx="52"></circle><ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67" cx="50.42"></ellipse><ellipse ry="2.98" rx="4.58" opacity=".1" fill="#f85565" cy="69.67" cx="77.58"></ellipse><g stroke-linejoin="round" stroke-linecap="round" fill="none"><path stroke-width="4" stroke="#fbc0aa" d="m64 67v4"></path><path stroke-width="2" stroke="#515570" opacity=".2" d="m55 56h-9.25"></path><path stroke-width="2" stroke="#515570" opacity=".2" d="m82 56h-9.25"></path></g><path opacity=".4" fill="#f85565" d="m64 84c5 0 7-3 7-3h-14s2 3 7 3z"></path><path fill="#f85565" d="m65.07 78.93-.55.55a.73.73 0 0 1 -1 0l-.55-.55c-1.14-1.14-2.93-.93-4.27.47l-1.7 1.6h14l-1.66-1.6c-1.34-1.4-3.13-1.61-4.27-.47z"></path></svg>
 
                   </div>
+                  <div class="textContainer">
+                    <p class="name">Matheow</p>
+                    <p class="profile">Software Developer</p>
+                  </div>
                 </div>
-            </a>
+              </div>
 
+          <!--Terminal + descripción + botones -->
+          <div class="flex flex-col justify-center max-w-2xl">
+
+            <!--Terminal animada -->
+            <div class="terminal-loader w-full mb-6">
+              <div class="terminal-header">
+                <div class="terminal-title">Status</div>
+                <div class="terminal-controls">
+                  <div class="control close"></div>
+                  <div class="control minimize"></div>
+                  <div class="control maximize"></div>
+                </div>
+              </div>
+              <div class="text">Hello World...</div>
+              <p class="terminal-description">
+                {{ 'description' | translate }}
+              </p>
             </div>
-          </div>
-
-          <!-- card of portfolio -->
-           <!-- Download -->
-            <!-- <a href="/public/assets/downloads/CV.pdf"> -->
-
-              <a
-              href="assets/downloads/CV.pdf"
-              download
-              aria-label="Download CV"
-              class="cursor-pointer group relative flex items-center gap-2 px-6 py-3
-                     bg-neutral-900 text-pink-200 rounded-3xl
-                     hover:bg-neutral-800 transition-all duration-300
-                     font-semibold shadow-md">
-
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="24px" width="24px">
-                <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#f9a8d4" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"></path>
+            <!--Botones -->
+            <div class="flex flex-col md:flex-row gap-4">
+              <svg width="0" height="0" style="position: absolute;">
+                <defs>
+                  <clipPath id="squircleClip" clipPathUnits="objectBoundingBox">
+                    <path d="M 0,0.5 C 0,0 0,0 0.5,0 S 1,0 1,0.5 1,1 0.5,1 0,1 0,0.5"></path>
+                  </clipPath>
+                </defs>
               </svg>
 
-              CV Download
+              <!-- EnlacesButton -->
+              <div class="relative">
+                <div
+                class="absolute inset-0 bg-black/20 backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl"
+                ></div>
 
-              <div class="absolute opacity-0 bottom-[calc(100%+0.5rem)] rounded-md py-1.5 px-2 text-sm
-                          bg-pink-900 text-white bg-opacity-90
-                          left-1/2 -translate-x-1/2 group-hover:opacity-100
-                          transition-opacity duration-200 shadow-lg">
-                Descargar
+                <div class="relative flex items-end gap-x-2 p-2">
+                  <!-- gitHubButton -->
+                  <a href="https://github.com/DinoMatheow"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="relative">
+
+                    <div class="relative">
+                      <div
+                        style="clip-path: url(#squircleClip)"
+                        class="w-14 h-14 bg-gradient-to-br from-gray-700 to-gray-900 rounded-xl flex items-center justify-center shadow-lg border border-gray-600/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
+                      >
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="currentColor"
+                          class="h-8 w-8 text-white"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                </a>
+
+                  <!-- LinkeDinButton -->
+                   <a href="https://www.linkedin.com/in/axel-chavez-malpartida-41870827a/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="relative">
+
+                   <div class="relative">
+                     <div
+                       style="clip-path: url(#squircleClip)"
+                       class="w-14 h-14 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl flex items-center justify-center shadow-lg border border-blue-500/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
+                     >
+                       <svg
+                         viewBox="0 0 24 24"
+                         fill="currentColor"
+                         class="h-8 w-8 text-white"
+                         xmlns="http://www.w3.org/2000/svg"
+                       >
+                         <path
+                           d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                         ></path>
+                       </svg>
+                     </div>
+                   </div>
+                  </a>
+                  <!-- DiscordButton -->
+                  <a
+                    href="mailto:AxelMatheow1710@outlook.com"
+                    class="relative"
+                  >
+                  <div class="relative">
+                    <div
+
+                    class="w-14 h-14 bg-gradient-to-br from-white to-white rounded-xl flex items-center justify-center shadow-lg border border-white-500/50 cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-translate-y-2 hover:shadow-2xl"
+                    >
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#EA4335"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>
+
+
+
+                      </div>
+                    </div>
+                </a>
+
+                </div>
               </div>
-            </a>
-            <!-- </a> -->
+
+              <!-- card of portfolio -->
+               <!-- Download -->
+                <!-- <a href="/public/assets/downloads/CV.pdf"> -->
+
+                  <a
+                  href="assets/downloads/CV.pdf"
+                  download
+                  aria-label="Download CV"
+                  class="cursor-pointer group relative flex items-center gap-2 px-6 py-3
+                         bg-neutral-900 text-pink-200 rounded-3xl
+                         hover:bg-neutral-800 transition-all duration-300
+                         font-semibold shadow-md">
+
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="24px" width="24px">
+                    <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="#f9a8d4" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"></path>
+                  </svg>
+
+                  CV Download
+
+                  <div class="absolute opacity-0 bottom-[calc(100%+0.5rem)] rounded-md py-1.5 px-2 text-sm
+                              bg-pink-900 text-white bg-opacity-90
+                              left-1/2 -translate-x-1/2 group-hover:opacity-100
+                              transition-opacity duration-200 shadow-lg">
+                    Descargar
+                  </div>
+                </a>
+                <!-- </a> -->
 
 
+
+            </div>
+
+
+
+
+
+          </div>
 
         </div>
 
-
-
+    <!-- Contenedor general con ancho completo y alineación a la derecha -->
+    <div class="w-full flex justify-end">
+      <!-- Sección de idiomas alineada a la derecha -->
+      <div class="flex flex-col items-center justify-center p-4 bg-base-300 rounded-xl shadow-lg text-center min-w-[180px]">
+        <h2 class="text-xl font-[Press_Start_2P] text-pink mb-4">Languages</h2>
+        <div class="flex flex-col gap-2">
+          <span class="text-sm text-white bg-pink-600 px-3 py-1 rounded-md font-mono">
+            🇪🇸 Español - Native
+          </span>
+          <span class="text-sm text-white bg-blue-600 px-3 py-1 rounded-md font-mono">
+            🇬🇧 English - A2/B1
+          </span>
+        </div>
+      </div>
+    </div>
 
 
       </div>
-
+      <!-- Tu h1, avatar, terminal, botones, etc. -->
     </div>
-
-<!-- Contenedor general con ancho completo y alineación a la derecha -->
-<div class="w-full flex justify-end">
-  <!-- Sección de idiomas alineada a la derecha -->
-  <div class="flex flex-col items-center justify-center p-4 bg-base-300 rounded-xl shadow-lg text-center min-w-[180px]">
-    <h2 class="text-xl font-[Press_Start_2P] text-pink mb-4">Languages</h2>
-    <div class="flex flex-col gap-2">
-      <span class="text-sm text-white bg-pink-600 px-3 py-1 rounded-md font-mono">
-        🇪🇸 Español - Native
-      </span>
-      <span class="text-sm text-white bg-blue-600 px-3 py-1 rounded-md font-mono">
-        🇬🇧 English - A2/B1
-      </span>
-    </div>
-  </div>
-</div>
-
-
   </div>
