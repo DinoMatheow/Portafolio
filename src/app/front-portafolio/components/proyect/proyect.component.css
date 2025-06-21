@@ -132,3 +132,48 @@
 .glitch {
   animation: glitch 0.3s infinite;
 }
+
+/* Swiper Styles - Solo paginación */
+swiper-container {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+}
+
+swiper-slide {
+  text-align: center;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  padding: 10px;
+}
+
+/* Mantener el diseño original de las cards dentro del swiper */
+swiper-slide .card {
+  width: 300px;
+  max-width: 400px;
+  margin: 0 auto;
+  height: auto;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Solo paginación - sin navegación */
+swiper-container::part(pagination) {
+  margin-top: 20px;
+}
+
+swiper-container::part(bullet) {
+  background: #000;
+  opacity: 0.3;
+  transition: all 0.3s ease;
+}
+
+swiper-container::part(bullet-active) {
+  opacity: 1;
+  background: #000;
+  transform: scale(1.2);
+}
