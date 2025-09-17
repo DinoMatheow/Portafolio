@@ -5,5 +5,22 @@
   "about": "Sobre mi",
   "contact": "Contacto",
   "portfolio": "Sobre el portalio",
-  "description": "Estudiante de Ingeniería de Software con conocimientos en desarrollo frontend y bases de datos. Manejo herramientas comoAngular y Javascript. Me gusta aprender haciendo, he trabajado en varios proyectos personales. Además. he completado mi formación con cursos en tecnologías web y base de datos."
+  "description": "Estudiante de Ingeniería de Software con conocimientos en desarrollo frontend y bases de datos. Manejo herramientas comoAngular y Javascript. Me gusta aprender haciendo, he trabajado en varios proyectos personales. Además. he completado mi formación con cursos en tecnologías web y base de datos.",
+  "language": "Idiomas",
+  "TechSoftSkills":"Habilidades tecnológicas y blandas",
+  "text":"Herramientas que domino y habilidades personales que me definen.",
+  "Aprendizaje":"Aprendizaje",
+  "continuo":"Continuo",
+  "adaptabilida":"Adaptabilida",
+  "proatividad":"Proatividad",
+  "gestion":"Gestión",
+   "tiempo":"Del tiempo",
+   "empatia":"Empatía",
+   "trabajo":"Trabajo",
+   "equipo":"En Equipo",
+   "resolucion":"Resolución",
+   "problemas":"Resolución De Problemas",
+   "comunicacion":"Comunicación"
+
+
 }

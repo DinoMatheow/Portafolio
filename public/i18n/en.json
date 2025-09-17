@@ -5,5 +5,23 @@
   "about": "About me",
   "contact": "Contact",
   "portfolio": "About the porfolio",
-  "description": "Software Engineering student with knowledge in front-end development and databases. I'm proficient in tools such as Angular and Javascript. I enjoy learning by doing and have worked on several personal projects. I've also completed my training with courses in web technologies and databases."
+  "description": "Software Engineering student with knowledge in front-end development and databases. I'm proficient in tools such as Angular and Javascript. I enjoy learning by doing and have worked on several personal projects. I've also completed my training with courses in web technologies and databases.",
+  "language": "Languages",
+  "TechSoftSkills":"Tech & Soft Skills",
+  "text":"Tools I master and personal skills that define me.",
+  "Aprendizaje":"Continuous",
+  "continuo":"Learning",
+  "adaptabilida":"Adaptability",
+  "proatividad":"Proactivity",
+  "gestion":"Time",
+   "tiempo":"Management",
+   "empatia":"Empathy",
+   "trabajo":"Team",
+   "equipo":"Work",
+   "resolucion":"Resolución",
+   "problemas":"Troubleshooting",
+   "comunicacion":"Communication"
+
+
 }
+

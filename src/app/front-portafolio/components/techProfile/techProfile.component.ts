@@ -1,10 +1,11 @@
 import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
 import { TECH_DATA } from '../../../data/tech.data';
 import { CommonModule } from '@angular/common';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-tech-profile',
-  imports: [CommonModule],
+  imports: [CommonModule, TranslatePipe],
   templateUrl: './techProfile.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
   styleUrl:'./techProfile.component.css',
